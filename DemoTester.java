@@ -6,6 +6,6 @@ public class DemoTester {
     int[] intArray = {0,1,2,3};
     @Test
     public void arrayAverage() {
-        assertEquals(4, Demo.averageArray(intArray));
+        assertEquals(6, Demo.averageArray(intArray));
     }
 }
